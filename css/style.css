@@ -1,15 +1,7 @@
 body {
   background-color: #112D32;
 }
-#map{
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  right: 20%;
-  top: 14%;
-  border: solid white 5px;
-  border-radius: 10px;
-}
+
 h1 {
   text-align: center;
   font-family: Times New Roman;
@@ -83,33 +75,5 @@ img{
     text-align: center;
 }
 
-.anime {
-    list-style-type: none;  
-    text-align: center;
-}
 
 
-.resume {
-    text-align: center;
-}
-
-.map {
-    text-align: center;
-}
-@media only screen and (min-width: 200px){
-  image{
-    max-height: 150px;
-    max-width: 200px;
-    outline-color: orange;
-    outline-width: 5px;
-    background-color: blue;
-  }}
-  
-@media screen and (min-width: 200px){
-  h1{
-    text-align: left;
-    font-family: Arial;
-    color:yellow;
-    font-size: 20px;
-    background-color: black;
-  }}
